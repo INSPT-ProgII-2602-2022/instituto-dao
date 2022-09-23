@@ -15,6 +15,7 @@ public class CarreraDAOHardCode implements CarreraDAO {
         cargarCarreras();
     }
 
+    @Override
     public Collection<CarreraDTO> obtenerCarreras() {
         return new ArrayList<>(this.carreras); // Lista copia
     }

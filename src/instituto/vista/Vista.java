@@ -12,7 +12,7 @@ import java.util.Collection;
  * Encontrá más código en mi repo de GitHub: https://github.com/CharlyCimino
  */
 public interface Vista {
-    public void iniciar();
-    public void mostrarCarreras(Collection<CarreraDTO> carreras);    
-    public void mostrarAlumnosDeCarrera(Collection<AlumnoDTO> alumnos, String nombreCarrera);
+    public abstract void iniciar();
+    public abstract void mostrarCarreras(Collection<CarreraDTO> carreras);    
+    public abstract void mostrarAlumnosDeCarrera(Collection<AlumnoDTO> alumnos, String nombreCarrera);
 }
